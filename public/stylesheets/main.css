@@ -2,7 +2,6 @@
   website  :   NextIM
   author   :   Jason weng
   update   :   2009-12-23,
-  
 */
 
 /* Global Reset */
@@ -398,7 +397,7 @@ a.white:hover{color:#fff; text-decoration:none; }
 	#navi li a:hover{color:#095fa1; text-decoration:none; }
 	#navi li.current a{ background: url(../images/navi_current_bg.png) no-repeat;}
 	
-#topNavi{display: block; float: right;height: 27px; line-height: 23px; text-align: center; background: url(../images/top_navi_bg.png) no-repeat left 0; padding-left:10px; color: #fff; margin-top: 1px;zoom:1; width: auto; *width:100px; }
+#topNavi{display: block; float: right;height: 27px; line-height: 23px; text-align: center; background: url(../images/top_navi_bg.png) no-repeat left 0; padding-left:10px; color: #fff; margin-top: 1px;zoom:1; width: auto; *width:80px; }
 	#topNavi span{ display: block; float: right; width: 10px; height: 27px; background: url(../images/top_navi_bg.png) no-repeat right 0;  }
 
 .banner{ height: 311px; background: url(../images/banner.png) no-repeat; }
@@ -427,65 +426,4 @@ a.white:hover{color:#fff; text-decoration:none; }
 	.ticker p{ background: url(../images/ticker_btm_bg.png) no-repeat bottom; padding: 3px 0 6px 0; margin-top: 3px; text-indent: 10px; }
 	
 #footer{ width: 100%; text-align: center; margin-top: 20px; border-top: #e5e5e5 1px solid; padding-top: 10px; padding-bottom: 20px; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -20,12 +20,7 @@
           </div>
           <!-- Start: navigation -->
           <div class="grid_9">
-            <div id="topNavi">
-              <span></span>
-              <%=link_to t("login"), {:controller => "account"}, :class => 'white' %>
-              |
-              <%=link_to t("signup"), {:controller => "signup"}, :class => 'white' %>
-            </div>
+            <div id="topNavi"><span></span><%=link_to t("login"), {:controller => "account"}, :class => 'white' %> | <%=link_to t("signup"), {:controller => "signup"}, :class => 'white' %></div>
             <div class="clearfix"></div>
             <ul id="navi">
               <%= nav_tag 'home', t("home"), :controller => 'welcome' %>
