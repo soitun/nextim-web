@@ -427,3 +427,192 @@ a.white:hover{color:#fff; text-decoration:none; }
 	
 #footer{ width: 100%; text-align: center; margin-top: 20px; border-top: #e5e5e5 1px solid; padding-top: 10px; padding-bottom: 20px; }
 
+/*banner*/
+.title{
+  font-size: 60px;
+  color: #ededed;
+  font-family: Geneva;
+  line-height: .8;
+  padding: 30px 0 0 10px;
+}
+.banner2 .bannerBtn, .banner3 .bannerBtn{
+  float: right;
+  margin: 0;
+}
+.banner3 .bannerBtn li{
+  margin: 0;
+  overflow: hidden;
+  width: 335px;
+  height: auto;
+  padding: 23px 22px;
+  background: url(../images/banner_btn_bg2.png) right center no-repeat;
+}
+.banner3 .bannerBtn li div{
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+.banner3 .bannerBtn li span{
+  float: right;
+}
+.banner2 .bannerBtn li{
+  margin: 0;
+  overflow: hidden;
+  width: 335px;
+  float: none;
+  height: auto;
+  padding: 3px 10px;
+  margin: 4px 0 10px;
+  background: #f7f7f7;
+}
+.banner2 .bannerBtn li div{
+  float: left;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+.banner2 .bannerBtn li span{
+  float: right;
+}
+.banner2 .bannerBtn li span{ 
+  background-image: url(../images/banner_btn_icon_show2.png);
+}
+.banner2 .bannerBtn li span.bannerDownload{
+  background-image: url(../images/banner_btn_icon_download2.png); 
+}
+
+/*content*/
+.content-top{
+  margin-left: 10px;
+  background: url(../images/content_top.png) top no-repeat;
+  padding-top: 3px;
+}
+.content-bottom{
+  padding-bottom: 4px;
+  background: url(../images/content_bottom.png) bottom no-repeat;
+}
+.content{
+  border-right: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+}
+.content-inner{
+  background: url(../images/content_bg.png) right top no-repeat;
+}
+
+.c2 .content-top{
+  background: url(../images/content_top2.png) top no-repeat;
+}
+.c2 .content-bottom{
+  padding-bottom: 4px;
+  background: url(../images/content_bottom2.png) bottom no-repeat;
+}
+.c2 .content{
+  background: url(../images/content_line.png) left top repeat-y;
+}
+
+/* bar */
+#sidebar{
+  float: left;
+  width: 159px;
+  margin-top: -2px;
+  position: relative;
+}
+#sidebar a{
+  display: block;
+  padding: 9px 9px;
+  border-bottom: 1px solid #EDEDED;
+}
+#sidebar .current{
+  background: url(../images/sidebar_current.png) no-repeat;
+  border-bottom: 1px solid transparent;
+}
+#sidebar .first .current{
+  background: url(../images/sidebar_current_first.png) no-repeat;
+}
+#widebar{
+  float: left;
+  width: 769px;
+  padding: 10px;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+/*line*/
+.line{
+  padding-top: 7px;
+  background: url(../images/line.png) repeat-x top;
+}
+.vertical-line{
+  background: url(../images/vertical_line.png) repeat-y right;
+}
+
+.vertical-line2{
+  background: url(../images/vertical_line2.png) repeat-y right;
+}
+
+/*columns*/
+.columns{
+}
+.column{
+  width: 50%;
+  float: left;
+}
+
+/*products*/
+.product-info{
+  padding: 0 10px;
+}
+.product-intro{
+  padding: 0 20px;
+  padding-left: 56px;
+  margin: 20px 0;
+
+}
+.product-intro img{
+  float: left;
+  margin-left: -40px;
+  margin-top: 2px;
+}
+.product-info h1{
+  font-family: Geneva;
+  font-size: 24px;
+  font-color: #5c5757;
+}
+.product-info p, .product-intro p{
+  font-color: #666666;
+  font-size: 14px;
+  padding: 8px 0;
+  line-height: 1.8;
+}
+.product-intro h3{
+  font-size: 14px;
+}
+.product-intro p{
+  font-size: 12px;
+  padding: 5px 0 0;
+ }
+
+ /*service*/
+ .service-info{
+   padding: 10px;
+}
+.service-info .left{
+  float: left;
+  width: 550px;
+}
+.service-info .right{
+  float: left;
+  padding-top: 20px;
+  width: 378px;
+}
+.service-users{
+  margin: 0 10px;
+  padding-bottom: 20px;
+}
+.service-users h3{
+  margin: -15px 0 0 30px;
+  font-size: 14px;
+}
+.service-users h3 span{
+  background: #fff;
+}
