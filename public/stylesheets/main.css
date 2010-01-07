@@ -616,3 +616,119 @@ a.white:hover{color:#fff; text-decoration:none; }
 .service-users h3 span{
   background: #fff;
 }
+/*technology*/
+.technology-info{
+  padding: 20px 20px 0 20px;
+}
+.technology-info .left{
+  float: left;
+  width: 430px;
+}
+.technology-info .right{
+  float: right;
+  width: 430px;
+}
+/*download*/
+.download{
+  padding: 20px;
+}
+.download a, .download{
+  color: #666;
+}
+.download h2, .download h3{
+  color: #000;
+}
+.download h2{
+  background: #f7f7f7;
+  padding: 3px 10px 3px 5px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.download h2 span{
+  float: right;
+}
+.download .action{
+  overflow: hidden;
+}
+
+.download .action a{
+  float: left;
+  font-size: 14px;
+  color: #000;
+  background: url(../images/download_bg.png) no-repeat;
+  padding: 11px 40px 15px 46px;
+  margin: 10px 0 20px;
+  display: inline;
+}
+
+.download .manual{
+  padding: 3px 10px 3px 25px;
+  display: table;
+  background:#f7f7f7 url(../images/icon_manual.png) no-repeat 3px center;
+}
+
+.download .intro{
+  padding-top: 20px;
+}
+
+.download .intro h3{
+  font-size: 14px;
+  padding: 5px 0 10px 35px;
+}
+.download .intro h3 img{
+  margin: -5px 0 0 -35px;
+  float: left;
+}
+.download .intro p{
+  line-height: 1.8;
+}
+/*purchase*/
+.purchase h3{
+  font-size: 14px;
+  padding: 10px;
+  
+}
+.purchase p{
+  color: #666;
+  padding: 0px 10px 30px;
+  line-height: 1.8;
+}
+
+.purchase .notice{
+  color: #fff;
+  background: #fc7100;
+  padding: 2px 8px;
+  display: table;
+  margin-left: 10px;
+}
+/*company*/
+.company #widebar{
+  margin-top: 0;
+  padding-top: 0;
+}
+.company .line{
+  margin: 0 10px;
+}
+.company p{
+  line-height: 2;
+  color: #666;
+  padding: 0px 10px 20px;
+}
+.company h2{
+  font-size: 18px;
+  color: #000;
+  padding: 20px 10px 10px;
+}
+.company h3{
+  background: url(../images/icon_light.png) no-repeat 10px center;
+  font-size: 12px;
+  color: #000;
+  padding: 0 10px 0 30px;
+}
+.company .left, .company .right{
+  float: left;
+  width: 50%;
+}
+.corner { -moz-border-radius: 4px; -webkit-border-radius: 4px;
+border-radius: 4px; }
