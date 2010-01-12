@@ -404,7 +404,7 @@ a.white:hover{color:#fff; text-decoration:none; }
 	.bannerSlogan{ padding: 91px 0 0 31px; color: #fff; line-height: 24px; width: 440px; }
 		.bannerSlogan h1{ font-weight: 400; }
 	.bannerBtn{ margin-left: 22px; }
-	.bannerBtn li{ margin:40px 20px 0 0; width: 210px; height: 75px; float: left; background: url(../images/banner_btn_bg.png); behavior: url(/nextim/stylesheets/iepngfix.htc); font-size: 14px; }
+	.bannerBtn li{ margin:40px 20px 0 0; width: 210px; height: 75px; float: left; background: url(../images/banner_btn_bg.png); behavior: url(/stylesheets/iepngfix.htc); font-size: 14px; }
 		.bannerBtn li div{ text-align: center; background: url(../images/banner_btn_line.png) repeat-x bottom; margin: 10px 6px 4px; padding-bottom: 4px; }	
 		.bannerBtn li span{ display: block; float: left; text-indent: 35px; background: url(../images/banner_btn_icon_show.gif) no-repeat 14px 40%; }
 		.bannerBtn li span.bannerDownload{background: url(../images/banner_btn_icon_download.gif) no-repeat 14px 40%; }
@@ -442,10 +442,11 @@ a.white:hover{color:#fff; text-decoration:none; }
 .banner3 .bannerBtn li{
   margin: 0;
   overflow: hidden;
-  width: 335px;
+  width: 350px;
   height: auto;
   padding: 23px 22px;
   background: url(../images/banner_btn_bg2.png) right center no-repeat;
+  behavior: none;
 }
 .banner3 .bannerBtn li div{
   float: left;
@@ -465,6 +466,7 @@ a.white:hover{color:#fff; text-decoration:none; }
   padding: 3px 10px;
   margin: 4px 0 10px;
   background: #f7f7f7;
+  behavior: none;
 }
 .banner2 .bannerBtn li div{
   float: left;
@@ -522,17 +524,19 @@ a.white:hover{color:#fff; text-decoration:none; }
   display: block;
   padding: 9px 9px;
   border-bottom: 1px solid #EDEDED;
+  zoom: 1;
 }
 #sidebar .current{
   background: url(../images/sidebar_current.png) no-repeat;
   border-bottom: 1px solid transparent;
+  border-bottom: none;
 }
 #sidebar .first .current{
   background: url(../images/sidebar_current_first.png) no-repeat;
 }
 #widebar{
   float: left;
-  width: 769px;
+  width: 768px;
   padding: 10px;
   padding-top: 20px;
   margin-top: 10px;
@@ -649,7 +653,7 @@ a.white:hover{color:#fff; text-decoration:none; }
   float: right;
 }
 .download .action{
-  overflow: hidden;
+  margin: 10px 0 20px;
 }
 
 .download .action a{
@@ -658,7 +662,6 @@ a.white:hover{color:#fff; text-decoration:none; }
   color: #000;
   background: url(../images/download_bg.png) no-repeat;
   padding: 11px 40px 15px 46px;
-  margin: 10px 0 20px;
   display: inline;
 }
 
